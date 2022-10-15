@@ -1,0 +1,46 @@
+@media (max-width: 391px) {
+    .img{
+        animation-name: img;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    .main-content{
+        margin-top: 250px;
+    }
+    
+    @keyframes img{
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(250px);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
+    }
+    .gif{
+        animation-name: gif;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    .main-content{
+        margin-top: 250px;
+    }
+    
+    @keyframes gif{
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(150px);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    }
+
